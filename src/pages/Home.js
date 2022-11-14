@@ -7,7 +7,7 @@ function home() {
   }
 
   return (
-    <div className="container" style={{ marginTop: 10, }}>
+    <div className="container" style={{ marginTop: 20, }}>
       <div className="card first-section" style={card}>
         <h5 class="card-title">Deficiencias funcionales corporales</h5>
         <p>Seleccione los enunciados con los que tenga dificultad:</p>
