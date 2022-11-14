@@ -1,7 +1,13 @@
 import React from 'react'
 import './Home.css'
+import {button, Modal, ModalHeader, ModalBody, label} from 'reactstrap'
+import 'bootstrap/dist/css/bootstrap.css'
 
 function home() {
+  //funcion para mostrar el mensaje emergente
+  const shoot = () =>{
+    alert("El diagnostico es: Busititis en el hombro y epicondilitis")
+  }
   return (
     <div className="container">
       <div className="p-5 mb-4 bg-light rounded-3 border">
@@ -178,9 +184,10 @@ function home() {
         </div>
       </div>
       <div className='resultados'>
-        <button type="button" class="btn btn-primary">Diagnostico</button>
+        <button type="button" class="btn btn-primary" onClick={shoot}>Diagnostico</button>
         <button type="button" class="btn btn-primary">Volver</button>
       </div>
+      
     </div>
   );
 }
