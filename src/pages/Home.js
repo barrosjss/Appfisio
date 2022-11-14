@@ -4,52 +4,50 @@ function home() {
   return (
     <div className="container">
       <div className="p-5 mb-4 bg-light rounded-3 border">
-        <div className="container-fluid py-5">
-          <h2 className="display-5 fw-bold">Deficiencias funcionales corporales</h2>
-          <p className="col-md-8 fs-4">Seleccione los enunciados con los que tenga dificultad:</p>
+        <h2 className="display-5 fw-bold">Deficiencias funcionales corporales</h2>
+        <p className="col-md-8 fs-4">Seleccione los enunciados con los que tenga dificultad:</p>
 
-          <div className="form-check">
-            <input className="form-check-input" type="checkbox" value="" id="flexCheckDefault"></input>
-            <label className="form-check-label" for="flexCheckDefault">
-              Movilidad de varias articulaciones
-            </label>
-          </div>
-          <div className="form-check">
-            <input className="form-check-input" type="checkbox" value="" id="flexCheckDefault"></input>
-            <label className="form-check-label" for="flexCheckDefault">
-              Funciones de la presion arterial
-            </label>
-          </div>
-          <div className="form-check">
-            <input className="form-check-input" type="checkbox" value="" id="flexCheckDefault"></input>
-            <label className="form-check-label" for="flexCheckDefault">
-              Funciones relacionadas con la fuerza muscular
-            </label>
-          </div>
-          <div className="form-check">
-            <input className="form-check-input" type="checkbox" value="" id="flexCheckDefault"></input>
-            <label className="form-check-label" for="flexCheckDefault">
-              Fuerza de musculos aislados y grupos musculares
-            </label>
-          </div>
-          <div className="form-check">
-            <input className="form-check-input" type="checkbox" value="" id="flexCheckDefault"></input>
-            <label className="form-check-label" for="flexCheckDefault">
-              Funciones relacionadas con la resistencia
-            </label>
-          </div>
-          <div className="form-check">
-            <input className="form-check-input" type="checkbox" value="" id="flexCheckDefault"></input>
-            <label className="form-check-label" for="flexCheckDefault">
-              Resistencia de grupos musculares
-            </label>
-          </div>
-          <div className="form-check">
-            <input className="form-check-input" type="checkbox" value="" id="flexCheckDefault"></input>
-            <label className="form-check-label" for="flexCheckDefault">
-              Ninguna de las anteriores
-            </label>
-          </div>
+        <div className="form-check">
+          <input className="form-check-input" type="checkbox" value="" id="flexCheckDefault"></input>
+          <label className="form-check-label" for="flexCheckDefault">
+            Movilidad de varias articulaciones
+          </label>
+        </div>
+        <div className="form-check">
+          <input className="form-check-input" type="checkbox" value="" id="flexCheckDefault"></input>
+          <label className="form-check-label" for="flexCheckDefault">
+            Funciones de la presion arterial
+          </label>
+        </div>
+        <div className="form-check">
+          <input className="form-check-input" type="checkbox" value="" id="flexCheckDefault"></input>
+          <label className="form-check-label" for="flexCheckDefault">
+            Funciones relacionadas con la fuerza muscular
+          </label>
+        </div>
+        <div className="form-check">
+          <input className="form-check-input" type="checkbox" value="" id="flexCheckDefault"></input>
+          <label className="form-check-label" for="flexCheckDefault">
+            Fuerza de musculos aislados y grupos musculares
+          </label>
+        </div>
+        <div className="form-check">
+          <input className="form-check-input" type="checkbox" value="" id="flexCheckDefault"></input>
+          <label className="form-check-label" for="flexCheckDefault">
+            Funciones relacionadas con la resistencia
+          </label>
+        </div>
+        <div className="form-check">
+          <input className="form-check-input" type="checkbox" value="" id="flexCheckDefault"></input>
+          <label className="form-check-label" for="flexCheckDefault">
+            Resistencia de grupos musculares
+          </label>
+        </div>
+        <div className="form-check">
+          <input className="form-check-input" type="checkbox" value="" id="flexCheckDefault"></input>
+          <label className="form-check-label" for="flexCheckDefault">
+            Ninguna de las anteriores
+          </label>
         </div>
       </div>
 
