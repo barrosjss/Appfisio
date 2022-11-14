@@ -1,4 +1,5 @@
 import React from 'react'
+import './Home.css'
 
 function home() {
   return (
@@ -175,6 +176,10 @@ function home() {
             Ninguna de las anteriores
           </label>
         </div>
+      </div>
+      <div className='resultados'>
+        <button type="button" class="btn btn-primary">Diagnostico</button>
+        <button type="button" class="btn btn-primary">Volver</button>
       </div>
     </div>
   );
