@@ -3,11 +3,6 @@ import Modal from 'react-bootstrap/Modal'
 import Button from 'react-bootstrap/Button'
 
 function Home() {
-  const [show, setShow] = useState(false)
-
-  const handleClose = () => setShow(false)
-  const handleShow = () => setShow(true)
-
   const resultados = {
     display: "flex",
     justifyContent: "center",
@@ -20,6 +15,15 @@ function Home() {
     marginBottom: 20,
     width: 200,
     height: 50,
+  }
+
+  const [show, setShow] = useState(false)
+
+  const handleClose = () => setShow(false)
+  const handleShow = () => setShow(true)
+
+  function refreshPage() {
+    window.location.reload(false);
   }
 
   return (
@@ -199,7 +203,7 @@ function Home() {
       </div>
       <div style={resultados}>
         <button type="button" class="btn btn-primary" variant="primary" onClick={handleShow} style={button}>Diagnostico</button>
-        <button type="button" class="btn btn-primary" style={button}>Volver</button>
+        <button type="button" class="btn btn-primary" onClick={refreshPage} style={button}>Volver</button>
       </div>
 
       <Modal show={show} onHide={handleClose}>
