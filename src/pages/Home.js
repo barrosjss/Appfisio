@@ -1,13 +1,27 @@
-import React from 'react'
-import './Home.css'
-import {button, Modal, ModalHeader, ModalBody, label} from 'reactstrap'
-import 'bootstrap/dist/css/bootstrap.css'
+import React, { useState } from 'react'
+import Modal from 'react-bootstrap/Modal'
+import Button from 'react-bootstrap/Button'
 
-function home() {
-  //funcion para mostrar el mensaje emergente
-  const shoot = () =>{
-    alert("El diagnostico es: Busititis en el hombro y epicondilitis")
+function Home() {
+  const [show, setShow] = useState(false)
+
+  const handleClose = () => setShow(false)
+  const handleShow = () => setShow(true)
+
+  const resultados = {
+    display: "flex",
+    justifyContent: "center",
   }
+
+  const button = {
+    marginLeft: 50,
+    marginRight: 50,
+    marginTop: 20,
+    marginBottom: 20,
+    width: 200,
+    height: 50,
+  }
+
   return (
     <div className="container">
       <div className="p-5 mb-4 bg-light rounded-3 border">
@@ -183,13 +197,24 @@ function home() {
           </label>
         </div>
       </div>
-      <div className='resultados'>
-        <button type="button" class="btn btn-primary" onClick={shoot}>Diagnostico</button>
-        <button type="button" class="btn btn-primary">Volver</button>
+      <div style={resultados}>
+        <button type="button" class="btn btn-primary" variant="primary" onClick={handleShow} style={button}>Diagnostico</button>
+        <button type="button" class="btn btn-primary" style={button}>Volver</button>
       </div>
-      
+
+      <Modal show={show} onHide={handleClose}>
+        <Modal.Header closeButton>
+          <Modal.Title>Diagnostico</Modal.Title>
+        </Modal.Header>
+        <Modal.Body>Busititis en el hombro y epicondilitis</Modal.Body>
+        <Modal.Footer>
+          <Button variant="secondary" onClick={handleClose}>
+            Close
+          </Button>
+        </Modal.Footer>
+      </Modal>
     </div>
   );
 }
 
-export default home;
+export default Home;
