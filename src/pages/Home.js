@@ -37,6 +37,7 @@ function Home() {
           <label className="form-check-label" for="flexCheckDefault">
             Movilidad de varias articulaciones
           </label>
+          
         </div>
         <div className="form-check">
           <input className="form-check-input" type="checkbox" value="" id="flexCheckDefault"></input>
@@ -201,6 +202,67 @@ function Home() {
           </label>
         </div>
       </div>
+
+      <div className="p-5 mb-4 bg-light rounded-3 border">
+        <h2 className="display-5 fw-bold">Facilitadores</h2>
+        <p className="col-md-8 fs-4">Seleccione cuales de estos facilitadores tiene a su disposicion: </p>
+
+        <div className="form-check">
+          <input className="form-check-input" type="checkbox" value="" id="flexCheckDefault"></input>
+          <label className="form-check-label" for="flexCheckDefault">
+            Conocidos, compañeros, colegas, vecinos y miembros de la comunidad
+          </label>
+        </div>
+        <div className="form-check">
+          <input className="form-check-input" type="checkbox" value="" id="flexCheckDefault"></input>
+          <label className="form-check-label" for="flexCheckDefault">
+            Productos y tecnologia de asistencia para el empleo
+          </label>
+        </div>
+        <div className="form-check">
+          <input className="form-check-input" type="checkbox" value="" id="flexCheckDefault"></input>
+          <label className="form-check-label" for="flexCheckDefault">
+            Productos y tecnologia para la movilidad y el transporte personal
+          </label>
+        </div>
+        <div className="form-check">
+          <input className="form-check-input" type="checkbox" value="" id="flexCheckDefault"></input>
+          <label className="form-check-label" for="flexCheckDefault">
+            Ninguna de las anteriores
+          </label>
+        </div>
+      </div>
+
+      <div className="p-5 mb-4 bg-light rounded-3 border">
+        <h2 className="display-5 fw-bold">Barreras</h2>
+        <p className="col-md-8 fs-4">Seleccione cual de estas barreras presenta:</p>
+
+        <div className="form-check">
+          <input className="form-check-input" type="checkbox" value="" id="flexCheckDefault"></input>
+          <label className="form-check-label" for="flexCheckDefault">
+            Productos y tecnologia de asistencia para el empleo
+          </label>
+        </div>
+        <div className="form-check">
+          <input className="form-check-input" type="checkbox" value="" id="flexCheckDefault"></input>
+          <label className="form-check-label" for="flexCheckDefault">
+            Productos y tecnologia para el empleo
+          </label>
+        </div>
+        <div className="form-check">
+          <input className="form-check-input" type="checkbox" value="" id="flexCheckDefault"></input>
+          <label className="form-check-label" for="flexCheckDefault">
+            Conducir
+          </label>
+        </div>
+        <div className="form-check">
+          <input className="form-check-input" type="checkbox" value="" id="flexCheckDefault"></input>
+          <label className="form-check-label" for="flexCheckDefault">
+            Ninguna de las anteriores
+          </label>
+        </div>
+      </div>
+
       <div style={resultados}>
         <button type="button" class="btn btn-primary" variant="primary" onClick={handleShow} style={button}>Diagnostico</button>
         <button type="button" class="btn btn-primary" onClick={refreshPage} style={button}>Volver</button>
