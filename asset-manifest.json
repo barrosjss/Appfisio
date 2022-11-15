@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/appfisio/static/css/main.073c9b0a.css",
-    "main.js": "/appfisio/static/js/main.db64f95b.js",
+    "main.js": "/appfisio/static/js/main.1d888706.js",
     "static/js/787.8d38da8f.chunk.js": "/appfisio/static/js/787.8d38da8f.chunk.js",
     "static/media/logo_appfisio-removebg-preview.png": "/appfisio/static/media/logo_appfisio-removebg-preview.dd3f0dea093580617f9c.png",
     "index.html": "/appfisio/index.html",
     "main.073c9b0a.css.map": "/appfisio/static/css/main.073c9b0a.css.map",
-    "main.db64f95b.js.map": "/appfisio/static/js/main.db64f95b.js.map",
+    "main.1d888706.js.map": "/appfisio/static/js/main.1d888706.js.map",
     "787.8d38da8f.chunk.js.map": "/appfisio/static/js/787.8d38da8f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.db64f95b.js"
+    "static/js/main.1d888706.js"
   ]
 }
